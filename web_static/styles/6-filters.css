@@ -24,3 +24,32 @@ button {
 button:hover {
   opacity: 90%;
 }
+
+.locations, .amenities {
+  height: 100%;
+  width: 25%;
+  color: #484848;
+  float: left;
+  margin-left: 30px;
+}
+
+.locations {
+  border-right: 1px solid #ddd;
+}
+
+h3 {
+  font-weight: 600;
+  margin: 10px 0 10px;
+}
+
+h4 {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.popover {
+  background: #fafafa;
+  margin: 0;
+  padding: 30px 60px 30px 100px;
+}
